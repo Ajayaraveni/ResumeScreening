@@ -1,0 +1,6 @@
+streamlit
+transformers
+PyMuPDF
+python-docx
+torch
+tensorflow
