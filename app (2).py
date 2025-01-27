@@ -20,8 +20,7 @@ def extract_text_from_docx(docx_file):
     doc = Document(docx_file)
     text = ""
     for para in doc.paragraphs:
-        text += para.text + "
-"
+        text += para.text + "\n"
     return text
 
 # Streamlit app
